@@ -12,6 +12,10 @@ final class ModelData : ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
     var hikes : [Hike] = load("hikeData.json")
     
+    var features: [Landmark] {
+        landmarks.filter { $0.isFeatured }
+    }
+    
     var categories: [String: [Landmark]] {
         Dictionary(
             grouping: landmarks,
@@ -32,7 +36,7 @@ func load<T: Decodable>(_ filename: String) -> T {
     do {
         data = try Data(contentsOf: file)
     } catch {
-        fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
+        fatalError("Couldn't load \(    filename) from main bundle:\n\(error)")
     }
 
     do {
