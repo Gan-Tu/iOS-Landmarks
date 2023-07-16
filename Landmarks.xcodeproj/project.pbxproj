@@ -62,7 +62,7 @@
 		59198A4E268AB1A9007C7D04 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		59198A50268AB335007C7D04 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		59198A52268AB575007C7D04 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
-		59337AED2689907D0015B316 /* Landmarks2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59337AED2689907D0015B316 /* Landmarks2023-tugan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Landmarks2023-tugan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59337AF02689907D0015B316 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		59337AF22689907D0015B316 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59337AF42689907D0015B316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		59E2465A2695760D00694869 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		59E2465C269577B700694869 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		59E2465E26957BC800694869 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
-		59E246642695807A00694869 /* MacLandmarks2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLandmarks2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E246642695807A00694869 /* MacLandmarks2023-tugan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MacLandmarks2023-tugan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59E246682695807A00694869 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		59E2466A2695807B00694869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59E2466D2695807B00694869 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -142,8 +142,8 @@
 		59337AEE2689907D0015B316 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59337AED2689907D0015B316 /* Landmarks2023.app */,
-				59E246642695807A00694869 /* MacLandmarks2023.app */,
+				59337AED2689907D0015B316 /* Landmarks2023-tugan.app */,
+				59E246642695807A00694869 /* MacLandmarks2023-tugan.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -282,9 +282,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59337AEC2689907C0015B316 /* Landmarks2023 */ = {
+		59337AEC2689907C0015B316 /* Landmarks2023-tugan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59337AFC2689907D0015B316 /* Build configuration list for PBXNativeTarget "Landmarks2023" */;
+			buildConfigurationList = 59337AFC2689907D0015B316 /* Build configuration list for PBXNativeTarget "Landmarks2023-tugan" */;
 			buildPhases = (
 				59337AE92689907C0015B316 /* Sources */,
 				59337AEA2689907C0015B316 /* Frameworks */,
@@ -294,14 +294,14 @@
 			);
 			dependencies = (
 			);
-			name = Landmarks2023;
+			name = "Landmarks2023-tugan";
 			productName = Landmarks;
-			productReference = 59337AED2689907D0015B316 /* Landmarks2023.app */;
+			productReference = 59337AED2689907D0015B316 /* Landmarks2023-tugan.app */;
 			productType = "com.apple.product-type.application";
 		};
-		59E246632695807A00694869 /* MacLandmarks2023 */ = {
+		59E246632695807A00694869 /* MacLandmarks2023-tugan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59E246712695807B00694869 /* Build configuration list for PBXNativeTarget "MacLandmarks2023" */;
+			buildConfigurationList = 59E246712695807B00694869 /* Build configuration list for PBXNativeTarget "MacLandmarks2023-tugan" */;
 			buildPhases = (
 				59E246602695807A00694869 /* Sources */,
 				59E246612695807A00694869 /* Frameworks */,
@@ -311,9 +311,9 @@
 			);
 			dependencies = (
 			);
-			name = MacLandmarks2023;
+			name = "MacLandmarks2023-tugan";
 			productName = MacLandmarks;
-			productReference = 59E246642695807A00694869 /* MacLandmarks2023.app */;
+			productReference = 59E246642695807A00694869 /* MacLandmarks2023-tugan.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -347,8 +347,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				59337AEC2689907C0015B316 /* Landmarks2023 */,
-				59E246632695807A00694869 /* MacLandmarks2023 */,
+				59337AEC2689907C0015B316 /* Landmarks2023-tugan */,
+				59E246632695807A00694869 /* MacLandmarks2023-tugan */,
 			);
 		};
 /* End PBXProject section */
@@ -671,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59337AFC2689907D0015B316 /* Build configuration list for PBXNativeTarget "Landmarks2023" */ = {
+		59337AFC2689907D0015B316 /* Build configuration list for PBXNativeTarget "Landmarks2023-tugan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59337AFD2689907D0015B316 /* Debug */,
@@ -680,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59E246712695807B00694869 /* Build configuration list for PBXNativeTarget "MacLandmarks2023" */ = {
+		59E246712695807B00694869 /* Build configuration list for PBXNativeTarget "MacLandmarks2023-tugan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59E246722695807B00694869 /* Debug */,
