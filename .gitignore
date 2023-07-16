@@ -89,7 +89,10 @@ fastlane/test_output
 
 iOSInjectionProject/
 
+.DS_Store
+
 
 # Custom
 xcshareddata
-xcdebugger
+!Package.resolved
+
